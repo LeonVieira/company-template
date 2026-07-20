@@ -1,6 +1,17 @@
-footer {
-  text-align: center;
-  padding: 3px;
-  color: white;
-  background-color: #111111;
+
+
+
+/* Ensure the body spans the full height of the screen */
+body {
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh; /* dvh accounts dynamically for mobile address bars */
 }
+
+/* Force the main content block to grow and fill empty space */
+.content {
+  flex: 1;
+  margin: 15px 30px;
+}
+

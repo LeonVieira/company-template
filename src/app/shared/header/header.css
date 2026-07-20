@@ -23,8 +23,15 @@ ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 5px;
+    margin: 16px 12px;
   text-decoration: none;
+}
+.navigation-button{
+  display: block;
+  text-align: center;
+  margin: 14px 16px;
+ 
 }
 
 ul li a:hover {
