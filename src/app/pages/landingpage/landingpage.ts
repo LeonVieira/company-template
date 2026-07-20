@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 
 @Component({
   selector: 'app-landingpage',
@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './landingpage.css',
 })
 export class Landingpage {
+
 
 }
